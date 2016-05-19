@@ -6,7 +6,6 @@ import input_data
 import random
 
 mnist = input_data.read_data_sets("MNIST_data/", one_hot=True)
-# trX, trY, teX, teY = mnist.train.images, mnist.train.labels, mnist.test.images, mnist.test.labels
 
 learning_rate = 0.001
 
