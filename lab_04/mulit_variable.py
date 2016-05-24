@@ -10,6 +10,8 @@ xy = np.loadtxt('./train.txt', unpack=True, dtype='float32')
 x_data = xy[0:-1] 
 y_data = xy[-1]
 
+
+
 W = tf.Variable(tf.random_uniform([1, len(x_data)], -1.0, -1.0))
 
 # Hypothesis
